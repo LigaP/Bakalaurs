@@ -31,7 +31,7 @@ void setup()   /* uzstadijumi, izpildas tikai vienreiz pec arduino ieslegsanas v
 
 //--(uzstadijumu beigas)---
 
-void loop()   /****** muzigais cikls******/
+void loop()   /***** muzigais cikls*****/
 {
   total5 = total5 - readings5[readIndex5];  // atnem pedejo lasijumu
   readings5[readIndex5] = analogRead(analogInPin); // nozime nolasito vertibu 
